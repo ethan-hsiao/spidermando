@@ -1,0 +1,129 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: black;
+  font-weight: 400;
+}
+
+header {
+  font-family: "Roboto", "Georgia", "Arial", sans-serif;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  background-image: url(images/background.jpg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 15vw 2em;
+  display: block;
+}
+
+header p {
+  padding: 0.6em;
+  font-weight: 100;
+  text-align: center;
+  font-size: 3em;
+}
+
+header img {
+  vertical-align: top;
+  display: inline-block;
+  width: 8em;
+  border-radius: 4em;
+  border: 2px solid #e81c4f;
+}
+
+header h1 {
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 6em;
+  font-weight: 300;
+}
+
+#story {
+  margin-top: -2.5em;
+}
+
+#allstuf {
+  font-family: "Roboto", "Georgia", "Arial", sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #2f4f4f;
+  font-weight: 400;
+}
+
+#allstuf b {
+  font-weight: 500;
+}
+
+#credits {
+  text-align: center;
+  border: 1px solid #2f4f4f;
+  padding: 0.3125em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  border-radius: 0.625em;
+  width: 15em;
+  margin: 0 auto;
+  margin-top: 2em;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+#gamesprite {
+  text-align: center;
+}
+
+#gamesprite img {
+  margin: 0 auto;
+  width: 4em;
+  margin-top: 1.5em;
+}
+
+#conclusion img {
+  width: 50em;
+  display: block;
+  margin: 0 auto;
+}
+
+#goodluck {
+  font-family: "Roboto", "Georgia", "Arial", sans-serif;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: block;
+  padding-top: 3em;
+}
+
+#goodluck a {
+  color: #e81c4f;
+  text-decoration: none;
+  border: 1px solid #e81c4f;
+  padding: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-weight: 100;
+  font-size: 1.5em;
+  border-radius: 0.6em;
+}
+
+#goodluck a:hover {
+  color: white;
+  background-color: #e81c4f;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
